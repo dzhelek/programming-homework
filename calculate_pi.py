@@ -1,4 +1,4 @@
-def pi(n):
+def pi(n=1000000):
     n = n * 2 + 1
     denominator = 6
     while n != 1:
