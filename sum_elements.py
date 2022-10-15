@@ -1,4 +1,4 @@
-# scirpt to sum the elements of list with even sum of digits
+# scirpt to sum the elements of list having even sum of digits
 import random
 
 numbers = [random.randint(0, 100) for _ in range(10)]
