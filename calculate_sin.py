@@ -1,6 +1,7 @@
 from math import prod
 
 
+# function to calculate the sin of any number using infinite fraction
 def sin(x, n=10):
     n = n * 2
     denominator = (n + 2) * (n + 3) - x**2

@@ -1,3 +1,4 @@
+# function to convert any number from base 10 to any base
 alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
 def convert(number:int, base:int):

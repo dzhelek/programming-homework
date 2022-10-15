@@ -1,3 +1,4 @@
+# function to calculate pi using infinite fraction
 def pi(n=1000000):
     n = n * 2 + 1
     denominator = 6
