@@ -1,0 +1,17 @@
+s = []
+
+while True:
+    try:
+        s.append(int(input()))
+    except ValueError:
+        break
+
+average = sum(s)/len(s)
+print(f'''
+min = {min(s)}
+max = {max(s)}
+average = {average}
+''')
+
+s = [e if e >= average else 0 for e in s]
+print(s)
